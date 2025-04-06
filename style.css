@@ -1,0 +1,399 @@
+*{
+    border: border-box;
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+.register-btn{
+    background-color:#4caf4f ;
+    color: white;
+    margin-left: 1px;
+}
+.register-btn img{
+    color: white;
+}
+.hero-section{
+    height: 80vh;
+    background-color: #f5f7fa;
+    align-items: center;
+    
+
+}
+.hero-header{
+    font-weight: bold;
+    font-size: 45px;
+}
+.hero-header span{
+    color: #4caf4f;
+    font-size: 40px;
+
+}
+
+.carousel-item img{
+    width: 100%;
+}
+.client-section{
+    height: 330px;
+    align-items: center;
+}
+.our-clients{
+    font-weight: bold;
+}
+.client-container{
+    
+}
+
+.comnunity-item{
+    width: 30%;
+    height: 300px;
+    box-shadow: 1px 1px 50px black;
+    margin-right: 20px;
+    border-radius: 5px;
+    padding: 20px;
+    
+}
+.community-items{
+    margin-top: 70px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.pixelgrade{
+    height: 50vh;
+    align-items: center;
+    display: flex;
+
+}
+.d-inline{
+    display: inline-block;
+}
+.right-help{
+    .right-help{
+        flex-wrap: wrap;
+    }
+}
+.helping-section{
+    height: 30vh;
+    background-color:#e7e9ec ;
+    display: flex;
+    align-items: center;
+    margin: 20px 0px;
+}
+.design-section{
+    height: 60vh;
+}
+.customers{
+    background-color: #e7e9ec;
+    height: 40vh;
+}
+.customer-btn{
+    border: none;
+    background: none;
+    
+}
+.customer-btn a{
+    text-decoration: none;
+    color: green;
+
+}
+.marketing{
+    overflow: visible;
+    height: 60vh;
+    text-align: center;
+    margin: 40px 0px;
+}
+.market-img{
+    position: relative;
+    
+}
+.market-img img{
+    width: 100%;
+    z-index: 1;
+}
+.company{
+    height:20px;
+}
+.marketing-description{
+
+    width: 220px;
+    height: 150px;
+
+    text-align: center;
+    background-color: #e7e9ec;
+    position: absolute;
+    top: 45%;
+    z-index: 2;
+    border-radius: 5px;
+    padding: 5px 0px;
+}
+.card{
+    height: 30vh;
+    align-items: center;
+    justify-self: center;
+    border: none;
+    
+    
+
+}
+.cards{
+    display: flex;
+    justify-content: space-around;
+    height: 50vh;
+}
+.demo{
+    display: block;
+    overflow: visible;
+    
+    height: 35vh;
+    background-color: #e7e9ec;
+}
+.Pellentesque{
+    font-size: 60px;
+}
+.form-control{
+    
+
+}
+/* media queries */
+@media screen and (min-width: 769px){
+    .carousel-inner{
+        padding-top: 20vh;
+
+    
+    }
+
+}
+@media screen and (max-width: 768px){
+    .hero-header{
+        
+        font-size: 30px;
+    }
+    .hero-header span{
+        
+        font-size: 25px;
+    
+    }
+    .p-hero{
+        padding: 0 4px;
+    }
+    .hero-section{
+        height: 90vh;
+        
+        
+    }
+    .carousel-inner{
+        padding-top: 15vh;
+                
+    }
+    .carousel-item img{
+        width: 80%;
+       text-align: center;
+        
+    }
+    .img{
+        justify-self: center;
+    }
+    .img img:first-child{
+        margin-top: 15px;
+    }
+    /* .d-flex{
+        width: 768px;
+        
+        align-items: center;
+        position: relative;
+
+        
+    }*/
+    .carousel{
+        height: 100%;
+    }
+    .carousel-item{
+        text-align: center;
+        
+        
+    }
+    
+     .hero_left_items{
+        
+        
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        text-align: center;
+        
+    } /*
+    .d-flex img{
+        width: 100%;
+        height: 35vh;
+        position: absolute;
+        
+        top: -90%;
+        left: 30%;
+    } */
+    .card{
+        
+    }
+    .marketing{
+        height: 100vh;
+        
+    }
+  
+   
+   
+    .card{
+        width: 100%;
+        height: 40vh;
+        align-items: center;
+        justify-self: center;
+        border: none;
+        
+        
+    
+    }
+    .cards{
+        display: block;
+        justify-content: space-around;
+        height: 80%;
+    }
+}
+@media screen and (max-width: 425px){
+    .helping-section{
+        height: 70vh;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+       
+    }
+    body{
+        width: 425px;
+    }
+    .navbar{
+        width: 425px;
+    }
+    .hero-header{
+        
+        font-size: 30px;
+    }
+    .hero-header span{
+        
+        font-size: 25px;
+    
+    }
+    .p-hero{
+        padding: 0 4px;
+    }
+    .hero-section{
+        height: 90vh;
+        
+        
+    }
+    .carousel-inner{
+        padding-top: 15vh;
+                
+    }
+    .carousel-item img{
+        width: 80%;
+       text-align: center;
+        
+    }
+    .img{
+        justify-self: center;
+    }
+    .img img:first-child{
+        margin-top: 15px;
+    }
+    /* .d-flex{
+        width: 768px;
+        
+        align-items: center;
+        position: relative;
+
+        
+    }*/
+    .carousel{
+        height: 100%;
+    }
+    .carousel-item{
+        text-align: center;
+        
+        
+    }
+    
+     .hero_left_items{
+        
+        
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        text-align: center;
+        
+    }
+    .card{
+        margin-bottom: 5px;
+    }
+    .pixelgrade{
+        height: 80vh;
+        align-items: center;
+        display: flex;
+        
+    
+    }
+    .pixel-right{
+        text-align: center;
+        margin: 5px 5px;
+    }
+    .pixel-right .hero-header{
+        font-size: 25px;
+    }
+
+    .right-help{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .customers{
+        height: 90vh;
+    }
+    .marketing{
+        height: 140vh;
+        
+    }
+  
+   
+   
+    .card{
+        width: 100%;
+        height: 40vh;
+        align-items: center;
+        justify-self: center;
+        border: none;
+        
+        
+    
+    }
+    .cards{
+        display: block;
+        justify-content: space-around;
+        height: 130vh;
+        position: absolute;
+    }
+    .demo{
+        overflow: visible;
+        display: block;
+        position: static;
+        height: 50vh;
+        margin-top: 100px ;
+    }
+    .demo p{
+        font-size: 30px;
+    }
+    .footer{
+        overflow: visible;
+        display: block;
+        position: absolute;
+    }
+
+}
